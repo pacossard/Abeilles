@@ -1,0 +1,210 @@
+body{
+background-color: #FCCB00;
+}
+section {
+  min-height: 100vh;
+}
+
+.centered-x-y {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+
+.centered-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.centered{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+
+.centered-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.bienvenue{
+    background: url('../assets/images/etape03/background.svg') top center no-repeat;
+    background-size: cover;
+  }
+
+  .bienvenue02{
+      background: url('../assets/images/etape03/background02.svg') top center no-repeat;
+      background-size: cover;
+    }
+
+.bee{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 600px;
+  width : 12%;
+  max-width: 400px;
+  animation: camille 3000ms linear;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  position: absolute;
+  right: 80%;
+}
+
+.bee01{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 600px;
+  width : 12%;
+  max-width: 400px;
+  animation: camille02 3000ms infinite linear;
+  animation-timing-function: ease-out;
+  position: absolute;
+  right: 50%;
+}
+
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 600px;
+  width : 14%;
+  max-width: 400px;
+  position: absolute;
+  right: 40%;
+  opacity: 1;
+  transition: 0.1s;
+}
+
+.bouton{
+  display: block;
+  max-width: 600px;
+  width : 11.5%;
+  max-width: 400px;
+  position: absolute;
+  right: 41%;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.bouton:hover{
+  opacity: 1;
+}
+
+
+
+.text01{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 800px;
+  width : 50%;
+  max-width: 400px;
+  position: absolute;
+  right: 70%;
+  opacity: 1;
+  transition: 0.1s;
+}
+
+.bouton01{
+  display: block;
+  max-width: 800px;
+  width : 12.7%;
+  max-widt: 400px;
+  position: absolute;
+  right: 71.5%;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.bouton01:hover{
+  opacity: 1;
+}
+
+
+.text02{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 800px;
+  width : 50%;
+  max-width: 400px;
+  position: absolute;
+  right: 70%;
+  opacity: 1;
+  transition: 0.1s;
+}
+
+.bouton02{
+  display: block;
+  max-width: 800px;
+  width : 20%;
+  max-widt: 400px;
+  position: absolute;
+  right: 72%;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.bouton02:hover{
+  opacity: 1;
+}
+
+.text03{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 800px;
+  width : 50%;
+  max-width: 400px;
+  position: absolute;
+  right: 75%;
+  opacity: 1;
+  transition: 0.1s;
+  top: 320%;
+}
+
+.bouton03{
+  display: block;
+  max-width: 800px;
+  width : 23%;
+  max-widt: 400px;
+  position: absolute;
+  right: 75.4%;
+  opacity: 0;
+  transition: 0.1s;
+  top: 320%;
+}
+
+.bouton03:hover{
+  opacity: 1;
+}
+@keyframes camille {
+    0% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(400px) translateY(10px) rotate(20deg);
+    }
+
+}
+  @keyframes camille02 {
+        0% {
+            transform: translateX(-20px);
+        }
+
+        100% {
+            transform: translateX(400px) translateY(20px) rotate(20deg);
+        }
+}

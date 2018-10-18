@@ -1,0 +1,168 @@
+body{
+background-color: #FCCB00;
+}
+section {
+  min-height: 97.5vh;
+}
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 600%;
+}
+
+
+.centered-x-y {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.centered-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.centered{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+
+.centered02{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.centered-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.bienvenue{
+    background: url('../assets/images/etape01/slide01/background.svg') top center no-repeat;
+    background-size: cover;
+  }
+
+.bienvenue02 {
+    background: url('../assets/images/etape04/background.svg') top center no-repeat;
+    background-size: cover;
+  }
+
+  .bee{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 600px;
+    width : 12%;
+    max-width: 400px;
+    animation: camille 3000ms linear;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+    right: 90%;
+}
+
+.bee01{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 600px;
+  width : 12%;
+  max-width: 400px;
+  animation: camille01 3000ms infinite linear;
+
+  animation-timing-function: ease-out;
+  position: absolute;
+
+}
+
+  .text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 600px;
+    width : 15%;
+    max-width: 400px;
+    position: absolute;
+    right: 40%;
+    opacity: 1;
+    transition: 0.1s;
+
+  }
+
+  .text-conclusion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 70%;
+    text-align: center;
+  }
+
+  .bouton{
+    display: block;
+    max-width: 600px;
+    width : 11%;
+    max-width: 400px;
+    position: absolute;
+    right: 42%;
+    opacity: 0;
+    transition: 0.1s;
+  }
+
+  .bouton:hover{
+    opacity: 1;
+  }
+
+
+
+  .bouton01{
+    display: block;
+    max-width: 600px;
+    width : 11%;
+    max-width: 400px;
+    position: absolute;
+    right: 15%;
+    transition: 0.1s;
+    top: 120%;
+  }
+
+
+  .next {
+  max-width: 50px;
+  width : 3%;
+  max-width: 200px;
+  }
+
+  @keyframes camille {
+      0% {
+          transform: translateX(-20px);
+      }
+
+      100% {
+          transform: translateX(600px) translateY(10px) rotate(20deg);
+      }
+
+  }
+
+  @keyframes camille01 {
+      0% {
+          transform: translateX(800px) translateY(600px);
+      }
+
+      100% {
+          transform: translateX(0px) translateY(0px) rotate(20deg);
+      }
+
+  }
